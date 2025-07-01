@@ -4,26 +4,26 @@ Welcome to the **ML-Based Personalized Clothing Recommendation System**, a smart
 
 ---
 
-## 🚀 Demo
+## Demo
 
-Try it live on Streamlit: [Streamlit App 🔗](#)  
-*(Add your deployed URL here if available)*
+Try it live on Streamlit: [Streamlit App 🔗](https://ml-cloth-recommendation.streamlit.app/)  
+
 
 ---
 
-## 🧠 Features
+## Features
 
-- 🔍 **Natural Language Search**: Just type in what you're looking for (e.g., "green kurta for summer") and get personalized outfit suggestions.
-- 🤖 **Semantic Similarity Matching**: Uses state-of-the-art Sentence Transformers and Cosine Similarity for relevant product matches.
-- 🎯 **Adjustable Controls**: 
+- **Natural Language Search**: Just type in what you're looking for (e.g., "green kurta for summer") and get personalized outfit suggestions.
+- **Semantic Similarity Matching**: Uses state-of-the-art Sentence Transformers and Cosine Similarity for relevant product matches.
+- **Adjustable Controls**: 
   - Choose number of product results
   - Customize similarity threshold
-- 📊 **Interactive UI**: Built with **Streamlit** for a clean, responsive user interface.
-- 📦 **Optional ML Model**: A simple classifier to predict whether a product is "Intimate Wear".
+- **Interactive UI**: Built with **Streamlit** for a clean, responsive user interface.
+- **Optional ML Model**: A simple classifier to predict whether a product is "Intimate Wear".
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 <pre>
 ML-based-Personalized-Clothing-Recommendation-Web-App/
@@ -38,7 +38,7 @@ ML-based-Personalized-Clothing-Recommendation-Web-App/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: Streamlit
 - **ML/NLP**: 
@@ -50,14 +50,14 @@ ML-based-Personalized-Clothing-Recommendation-Web-App/
 
 ---
 
-## 📥 Installation
+## Installation
 
-### 🔧 Prerequisites
+###  Prerequisites
 
 - Python 3.8+
 - pip or conda
 
-### 🧪 Setup Instructions
+###  Setup Instructions
 
 1. **Clone the repository**
    ```bash
@@ -77,7 +77,7 @@ ML-based-Personalized-Clothing-Recommendation-Web-App/
 
 
 
-## 💬 Example Queries
+## Example Queries
 
 - `blue denim jeans`
 - `green ethnic kurta`
@@ -87,14 +87,14 @@ ML-based-Personalized-Clothing-Recommendation-Web-App/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!  
 Feel free to fork the repo, open an issue, or submit a pull request to improve this project.
 
 ---
 
-## 📃 License
+##  License
 
 This project is open-source and available under the [MIT License](LICENSE).
 
