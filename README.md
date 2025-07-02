@@ -1,6 +1,9 @@
-# 👗 ML-based Personalized Clothing Recommendation Web App
+# RecoWear
 
-![logo]("/logo.png")
+<p align="center">
+  <img src="logo.png" alt="Logo" width="200"/>
+</p>
+
 
 Welcome to the **ML-Based Personalized Clothing Recommendation System**, a smart outfit discovery platform powered by **Machine Learning** and **Natural Language Processing**. This web application recommends fashion products based on natural language queries — making fashion search effortless and intuitive!
 
