@@ -38,13 +38,16 @@ class EcommerceRecommendationSystem:
 # Streamlit App UI
 # -------------------------
 st.set_page_config(page_title="Outfit Recommender", layout="wide")
-st.title("👗🧥👚 **Outfit Recommender**")
+st.image("./Images/logo.png")
+
+
+
 
 # -------------------------
 # Intro Section
 # -------------------------
 st.markdown("""
-### 👋 Welcome to the Outfit Recommender!
+### 👋 Welcome to the RecoWear!
 This application helps you easily find the best fashion products based on your descriptions. 
 Whether you're looking for **casual wear, formal shirts, ethnic kurtas, or sporty outfits**, 
 just describe it — and let the AI recommend the perfect products for you.
@@ -58,19 +61,19 @@ by transforming text descriptions into smart outfit recommendations.
 # -------------------------
 with st.expander("🛠️ How this product was developed"):
     st.markdown("""
-    - 🧠 **Technology Used:**  
+    -  **Technology Used:**  
       - Sentence Transformers (`all-MiniLM-L6-v2`) for converting product descriptions into vector embeddings.
       - Scikit-learn for similarity search using **cosine similarity**.
       - Built completely with **Python** and **Streamlit** for the interactive web interface.
     
-    - 📦 **Data:**  
+    -  **Data:**  
       - Product metadata like product name, category, color, season, usage, etc.
       - Generated embeddings for product descriptions.
 
-    - 🎯 **Goal:**  
+    -  **Goal:**  
       To provide users an intuitive way to search for products based on natural language descriptions without needing to use filters or dropdowns.
     
-    - ❤️ **Crafted with care** to help users enjoy hassle-free fashion exploration.
+    -  **Crafted with care** to help users enjoy hassle-free fashion exploration.
     """)
 
 # -------------------------
@@ -81,10 +84,11 @@ recommender = EcommerceRecommendationSystem()
 # -------------------------
 # Sidebar - Control Panel
 # -------------------------
-st.sidebar.header("🔧 Search Settings")
+
+st.sidebar.header(" Search Settings")
 
 with st.sidebar:
-    st.markdown("### 🔍 **Select Number of Products**")
+    st.markdown("###  **Select Number of Products**")
     top_n_option = st.slider(
         "Number of Products",
         min_value=3,
@@ -93,7 +97,7 @@ with st.sidebar:
     )
 
     st.markdown("---")
-    st.markdown("### 🧠 Similarity Threshold")
+    st.markdown("###  Similarity Threshold")
     st.markdown(" How similar do you want the product to be?")
     similarity_threshold = st.slider(
         "Filter by similarity",
@@ -105,7 +109,7 @@ with st.sidebar:
 
 
     st.markdown("---")
-    st.markdown("### 🎯 **Try this Searches:**")
+    st.markdown("###  **Try this Searches:**")
     if st.button("👔 Formal Shirts"):
         example_query = "formal shirts navy"
     elif st.button("👗 Women Kurtas"):
@@ -126,7 +130,7 @@ with st.sidebar:
 # -------------------------
 # Main Search
 # -------------------------
-st.subheader("📝 Describe What You're Looking For")
+st.subheader(" Describe What You're Looking For")
 query = st.text_input(
     "Example: 'Blue denim jeans', 'Running shoes', 'Ethnic women kurta'",
     value=example_query
@@ -161,4 +165,6 @@ if query:
                 """)
 else:
     st.info("💡 Enter a product description or choose from examples in the sidebar.")
+
+
 
