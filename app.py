@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer
 
 
 # -------------------------
-# Recommender Classs
+# Recommender Classss
 # -------------------------
 class EcommerceRecommendationSystem:
     def __init__(self):
