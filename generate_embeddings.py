@@ -3,7 +3,7 @@ import torch
 import pandas as pd
 import numpy as np
 
-# Loads CSV (use the data you pasted)
+# Load CSV (use the data you pasted)
 data = pd.read_csv('ecommerce_data.csv')
 
 # Prepare text for embeddings
