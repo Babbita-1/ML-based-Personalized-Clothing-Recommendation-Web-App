@@ -34,7 +34,7 @@ class EcommerceRecommendationSystem:
 
 
 # -------------------------
-# Streamlit App UIiiiii
+# Streamlit App UIiiiadded
 # -------------------------
 st.set_page_config(page_title="Outfit Recommender", layout="wide")
 st.image("logo.png")
