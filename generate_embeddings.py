@@ -40,7 +40,7 @@ for text in texts:
 
 embeddings = np.vstack(embeddings)
 
-# Save embeddingsssssssss
+# Save embeddingsssss
 np.save('ecommerce_embeddings.npy', embeddings)
 
 print("✅ Embeddings saved as 'ecommerce_embeddings.npy'")
