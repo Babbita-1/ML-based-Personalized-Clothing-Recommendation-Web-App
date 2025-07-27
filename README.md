@@ -28,7 +28,7 @@ Try it live on Streamlit: [Streamlit App 🔗](https://ml-cloth-recommendation.s
 
 ---
 
-## Project Structure
+## Project Structures
 
 <pre>
 ML-based-Personalized-Clothing-Recommendation-Web-App/
