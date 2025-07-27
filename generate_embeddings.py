@@ -22,7 +22,7 @@ model_name = 'sentence-transformers/all-MiniLM-L6-v2'
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModel.from_pretrained(model_name)
 
-# Mean Pooling the
+# Mean Pooling the eee
 def mean_pooling(model_output, attention_mask):
     token_embeddings = model_output[0]  # First element is token embeddings
     input_mask_expanded = attention_mask.unsqueeze(-1).expand(token_embeddings.size()).float()
