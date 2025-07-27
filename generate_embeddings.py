@@ -6,7 +6,7 @@ import numpy as np
 # Load CSV (use the data you pasted)
 data = pd.read_csv('ecommerce_data.csv')
 
-# Prepare text for embeddings
+# Prepare text for the embeddings
 texts = (
     data['productDisplayName'].fillna('') + ' ' +
     data['masterCategory'].fillna('') + ' ' +
