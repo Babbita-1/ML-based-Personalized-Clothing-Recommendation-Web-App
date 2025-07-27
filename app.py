@@ -42,7 +42,7 @@ st.image("logo.png")
 
 
 # -------------------------
-# Intro changesSection
+# Intro Section
 # -------------------------
 st.markdown("""
 ### 👋 Welcome to the RecoWear!
